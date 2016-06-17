@@ -55,6 +55,9 @@
 					height: 250, //滚动内容的高度。
 					direction: 'up' //滚动的方向，默认为up向上，down则为向下滚动。
 				});
+
+				/*绑定事件*/
+				bindEvent();
 			});
 
 			//导航
@@ -75,3 +78,15 @@
 					paddingTop: "0px"
 				}, 400);
 			})
+
+			function bindEvent(){
+				/*登录，注册按钮绑定事件*/
+				$('#signin_btn').on('click', function(){
+					$('.modal_backdrop').show();
+					$('#sign_in_up').show();
+				});
+				$('#signup_btn').on('click', function(){
+					$('.modal_backdrop').show();
+					$('#sign_in_up').show();
+				});
+			}
