@@ -4,58 +4,92 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>歪创科技</title>
-		<link rel="stylesheet" type="text/css" href="/css/conmm.css" />
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/jquery.vticker.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/conmm.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.vticker.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
 		<div id="header" class="scrolltop">
 			<div class="header clearfix">
-				<div class="logo"><img src="/img/logo.jpg"></div>
+				<div class="logo"><img src="img/logo.jpg"></div>
 				<ul class="nav clearfix">
-					<li class="current"><a href="#">首页</a></li>
-					<li>
-						<a href="#">服务<span class="arrow"></span></a>
-						<ul class="secondmenu">
-							<li><a>123354545</a></li>
-							<li><a>123354545</a></li>
-							<li><a>123354545</a></li>
+					<li class="drop-menu-effect"><a href="" class="selected2"><span>首页</span></a></li>
+					<li class="drop-menu-effect"><a href=""><span>服务<i class="arrow"></i></span></a>
+						<ul class="submenu">
+							<!--平台建设、软件开发、APP设计、全网营销-->
+							<li><a href="#">平台建设</a></li>
+							<li><a href="#">软件开发</a></li>
+							<li><a href="#">APP设计</a></li>
+							<li><a href="#">全网营销</a></li>
 						</ul>
 					</li>
-					<li><a href="#">资讯</a></li>
-					<li><a href="#">活动</a></li>
-					<li><a href="#">干货</a></li>
-					<li><a href="#">直播</a></li>
+					<li class="drop-menu-effect"><a href=""><span>资讯<i class="arrow"></i></span></a>
+						<!--前沿、公告-->
+						<ul class="submenu">
+							<li><a href="#">前沿</a></li>
+							<li><a href="#">公告</a></li>
+
+						</ul>
+					</li>
+					<li class="drop-menu-effect"><a href=""><span>干货<i class="arrow"></i></span></a>
+						<ul class="submenu">
+							<li><a href="#">案例</a></li>
+							<li><a href="#">合作</a></li>
+
+						</ul>
+					</li>
+					<li class="drop-menu-effect"><a href=""><span>活动<i class="arrow"></i></span></a>
+						<ul class="submenu">
+							<li><a href="">直播</a></li>
+							<li><a href="">公司企业文化讲解</a></li>
+							<li><a href="">关注贫困儿童</a></li>
+						</ul>
+					</li>
 				</ul>
-				<div class="phone">021-456789456</div>
+				<div class="phone">
+					<p class="text">4008-821-628</p>
+					<p>只做您想要的！</p>
+				</div>
+				<div class="sun"><img src="img/sun.png"></div>				
 			</div>
+			<div id="login_area">
+				<ul class="header_unlogin clearfix">
+				    <li class="header_signin">
+				        <a href="javascript:void(0)" id="signin_btn">登录</a>
+				    </li>
+				    <li class="header_signup">
+				        <a href="javascript:void(0)" id="signup_btn">注册</a>
+				    </li>
+				</ul>
+	        </div>
+			
 		</div>
 
 		<!-- 轮播图  S  -->
 		<div class="flexslider">
 			<ul class="slides">
-				<li style="background:url(/img/banner.jpg) center 0 no-repeat;">
+				<li style="background:url(img/banner.jpg) center 0 no-repeat;">
 					<a href="#"></a>
 				</li>
-				<li style="background:url(/img/banner.jpg) center 0 no-repeat;">
+				<li style="background:url(img/banner.jpg) center 0 no-repeat;">
 					<a href="#"></a>
 				</li>
-				<li style="background:url(/img/banner.jpg) center 0 no-repeat;">
+				<li style="background:url(img/banner.jpg) center 0 no-repeat;">
 					<a href="#"></a>
 				</li>
-				<li style="background:url(/img/banner.jpg) center 0 no-repeat;">
+				<li style="background:url(img/banner.jpg) center 0 no-repeat;">
 					<a href="#"></a>
 				</li>
-				<li style="background:url(/img/banner.jpg) center 0 no-repeat;">
+				<li style="background:url(img/banner.jpg) center 0 no-repeat;">
 					<a href="#"></a>
 				</li>
-				<li style="background:url(/img/banner.jpg) center 0 no-repeat;">
+				<li style="background:url(img/banner.jpg) center 0 no-repeat;">
 					<a href="#"></a>
 				</li>
 			</ul>
 		</div>
-		<script src="/js/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
+		
 		<!-- 轮播图  E  -->
 		<div class="main_top clearfix">
 			<div class="aboutus">
@@ -76,7 +110,7 @@
 						<ul>
 							<li>
 								<div class="img">
-									<a href=""><img src="/img/news1.jpg"></a>
+									<a href=""><img src="img/news1.jpg"></a>
 								</div>
 								<div class="listtit">
 									<a href="">
@@ -88,7 +122,7 @@
 							</li>
 							<li>
 								<div class="img">
-									<a href=""><img src="/img/news1.jpg"></a>
+									<a href=""><img src="img/news1.jpg"></a>
 								</div>
 								<div class="listtit">
 									<a href="">
@@ -100,7 +134,7 @@
 							</li>
 							<li>
 								<div class="img">
-									<a href=""><img src="/img/news1.jpg"></a>
+									<a href=""><img src="img/news1.jpg"></a>
 								</div>
 								<div class="listtit">
 									<a href="">
@@ -112,7 +146,7 @@
 							</li>
 							<li>
 								<div class="img">
-									<a href=""><img src="/img/news1.jpg"></a>
+									<a href=""><img src="img/news1.jpg"></a>
 								</div>
 								<div class="listtit">
 									<a href="">
@@ -124,7 +158,7 @@
 							</li>
 							<li>
 								<div class="img">
-									<a href=""><img src="/img/news1.jpg"></a>
+									<a href=""><img src="img/news1.jpg"></a>
 								</div>
 								<div class="listtit">
 									<a href="">
@@ -136,7 +170,7 @@
 							</li>
 							<li>
 								<div class="img">
-									<a href=""><img src="/img/news1.jpg"></a>
+									<a href=""><img src="img/news1.jpg"></a>
 								</div>
 								<div class="listtit">
 									<a href="">
@@ -153,18 +187,43 @@
 			</div>
 		</div>
 		<div class="main_bottom">
-			<div class="title"><p><span>项目展示</span></p></div>
+			<div class="title">
+				<p><span>项目展示</span></p>
+			</div>
 			<div class="subtitle">眼见为实，我的做的每一份都有记录，让客户亲眼见证质量，不忘初心的企业理念</div>
-			<ul class="product clearfix">
-				<li>
-					<div class="img">
-						<img src="/img/product.jpg" />
-					</div>
-					<div class="abs">
-						1255
-					</div>
-				</li>
-			</ul>
+			<div class="con">
+				<ul class="clearfix">
+					<li>
+						<img src="img/product.jpg" />
+						<div class="txt">
+							<h3>IT培训</h3>
+							<p>为您铺就成为IT大神的在线学习之路</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/product.jpg" />
+						<div class="txt">
+							<h3>IT培训</h3>
+							<p>为您铺就成为IT大神的在线学习之路</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/product.jpg" />
+						<div class="txt">
+							<h3>IT培训</h3>
+							<p>为您铺就成为IT大神的在线学习之路</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/product.jpg" />
+						<div class="txt">
+							<h3>IT培训</h3>
+							<p>为您铺就成为IT大神的在线学习之路</p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
 		</div>
 		<div id="footer">
 			<div class="footer clearfix">
@@ -172,33 +231,21 @@
 					<p><a href="#">联系我们</a> <span></span> <a href="#">伙伴加入 </a> <span></span> <a href="#"> 管理团队</a> <span></span> <a href="#">品牌合作</a></p>
 					<p>Copyright ©360.cn. All Rights Reserved. </p>
 				</div>
-				<div class="center"><img src="/img/f_logo.png"></div>
+				<div class="center"><img src="img/f_logo.png"></div>
 				<div class="right">
-					<img src="/img/code.jpg" />
-					<img src="/img/code.jpg" />
+					<img src="img/code.jpg" />
+					<img src="img/code.jpg" />
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				//焦点图
-				$('.flexslider').flexslider({
-					directionNav: true,
-					pauseOnAction: false
-				});
-				//滚动新闻
-				$('#scroller').vTicker({
-					speed: 500, //滚动速度，单位毫秒。
-					pause: 3000, //暂停时间，就是滚动一条之后停留的时间，单位毫秒。
-					showItems: 2, //显示内容的条数。
-					animation: 'fade', //动画效果，默认是fade，淡出，不想要就删除，硬切。
-					mousePause: true, //鼠标移动到内容上是否暂停滚动，默认为true。
-					height: 250, //滚动内容的高度。
-					direction: 'up' //滚动的方向，默认为up向上，down则为向下滚动。
-				});
-			});
-		</script>
+
+		<!-- 登录注册遮罩层 -->
+		<div class='modal_backdrop hide_it'></div>
+		<!-- 登录注册页 -->
+		<div class='sign_in_up hide_it'></div>
 
 	</body>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index/index.js" type="text/javascript" charset="utf-8"></script>
 
 </html>
