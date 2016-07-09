@@ -81,12 +81,16 @@
 
 			function bindEvent(){
 				/*登录，注册按钮绑定事件*/
-				$('#signin_btn').on('click', function(){
+				/*$('#signin_btn').on('click', function(){
 					$('.modal_backdrop').show();
 					$('#sign_in_up').show();
 				});
 				$('#signup_btn').on('click', function(){
 					$('.modal_backdrop').show();
 					$('#sign_in_up').show();
-				});
+				});*/
+				/*$('.more-bussiness-intro').on('click', function(){
+					var gotoUrl = $(this).data('url');
+
+				});*/
 			}

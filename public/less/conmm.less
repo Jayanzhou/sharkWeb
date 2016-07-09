@@ -1,10 +1,11 @@
-* {
+body,div,img,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
 body {
     font-family: "微软雅黑",arial;
     font-size: 12px;
+    background-color: #eee;
 }
 ul li {
     list-style: none;
@@ -24,20 +25,22 @@ a {
 #header {
     height: 87px;
     position: relative;
+    background-color: #fff;
     #login_area {
         position: absolute;
-        top: 0;
-        right: 80px;
+        top: 50%;
+        right: 20px;
+        margin-top: -10px;
         ul{
             li{
                 display: inline-block;
-                line-height: 87px;
+                //line-height: 87px;
                 text-align: center;
                 padding: 0 5px;
                 a{
                     font-size: 14px;
                     color: #3a3a3a;
-                    line-height: 86px;
+                    //line-height: 86px;
                     display: inline-block;
                 }
             }
@@ -46,7 +49,7 @@ a {
 }
 .header {
     position: relative;
-    width: 1100px;
+    width: 1000px;
     margin: 0 auto;
     height: 87px;
     .logo {
@@ -60,8 +63,8 @@ a {
     }
     .phone {
         position: absolute;
+        top: 0px;
         right: 0px;
-        top: 22px;
         color: #ff6700;
         font-size: 14px;
         background: url("../img/phone.png") no-repeat left center;
@@ -222,6 +225,10 @@ a {
                     line-height: 28px;
                     text-align: center;
                 }
+                a:hover{
+                    color: #0077E0;
+                    border: 1px solid #0077E0;
+                }
             }
         }
     }
@@ -233,7 +240,7 @@ a {
         float: right;
         //滚动新闻
         .content {
-            margin-top: 12px;
+            margin-top: 28px;
             .list {
                 width: 636px;
                 ul {
@@ -389,6 +396,15 @@ a {
             vertical-align: middle;
             padding-left: 12px;
         }
+        .img-code-desc{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 80px;
+            color: #000;
+            font-size: 14px;
+        }
     }
 }
 .con ul li {
@@ -403,6 +419,10 @@ a {
     border: 5px solid #eeeeee;
     border-radius: 3px;
     overflow: hidden;
+    img{
+        width: 245px;
+        height: 407px;
+    }
 }
 .txt {
     width: 245px;
@@ -430,7 +450,7 @@ a {
     float: left;
     li {
         float: left;
-        width: 128px;
+        width: 100px;
         position: relative;
         .arrow {
                 margin-left: 3px;
@@ -475,16 +495,13 @@ a {
             
         }
         .submenu {
-            width: 128px;
+            width: 110px;
             z-index: 9999;
             display: none;
             position: absolute;
             top: 86px;
             left: 0;
             background-color: white;
-            width: 126px;
-            z-index: 999;
-
             box-shadow: 0px 3px 10px 0px rgba(0,0,0,.1);
             li {
                 padding: 0;
@@ -537,4 +554,7 @@ div.sign_in_up{
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
+}
+.hide{
+    display: none;
 }
