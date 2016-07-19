@@ -20,7 +20,7 @@ $(document).ready(function(){
 	/*项目展示*/
 	$(".con ul li").hover(function() {
 		$(this).find(".txt").stop().animate({
-			height: "407px"
+			height: "100%"
 		}, 400);
 		$(this).find(".txt h3").stop().animate({
 			paddingTop: "60px"
