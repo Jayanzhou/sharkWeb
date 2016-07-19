@@ -4,84 +4,22 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>歪创科技</title>
-		<link rel="stylesheet" type="text/css" href="css/conmm.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
 		<link rel="stylesheet" type="text/css" href="css/businessIntro.css" />
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.vticker.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
-		<div id="header" class="scrolltop">
-			<div class="header clearfix">
-				<div class="logo"><img src="img/logo.jpg"></div>
-				<ul class="nav clearfix">
-					<li class="drop-menu-effect"><a href="" class="selected2"><span>首页</span></a></li>
-					<li class="drop-menu-effect"><a href=""><span>服务<i class="arrow"></i></span></a>
-						<ul class="submenu">
-							<!--平台建设、软件开发、APP设计、全网营销-->
-							<li><a href="#">平台建设</a></li>
-							<li><a href="#">软件开发</a></li>
-							<li><a href="#">APP设计</a></li>
-							<li><a href="#">全网营销</a></li>
-						</ul>
-					</li>
-					<li class="drop-menu-effect"><a href=""><span>资讯<i class="arrow"></i></span></a>
-						<!--前沿、公告-->
-						<ul class="submenu">
-							<li><a href="#">前沿</a></li>
-							<li><a href="#">公告</a></li>
-
-						</ul>
-					</li>
-					<li class="drop-menu-effect"><a href=""><span>干货<i class="arrow"></i></span></a>
-						<ul class="submenu">
-							<li><a href="#">案例</a></li>
-							<li><a href="#">合作</a></li>
-
-						</ul>
-					</li>
-					<li class="drop-menu-effect"><a href=""><span>活动<i class="arrow"></i></span></a>
-						<ul class="submenu">
-							<li><a href="">直播</a></li>
-							<li><a href="">公司企业文化讲解</a></li>
-							<li><a href="">关注贫困儿童</a></li>
-						</ul>
-					</li>
-					<li class="drop-menu-effect"><a href=""><span>直播<i class="arrow"></i></span></a>
-						<ul class="submenu">
-							<li><a href="">NBA直播</a></li>
-							<li><a href="">足球联赛直播</a></li>
-							<li><a href="">斯诺克直播</a></li>
-						</ul>
-					</li>
-				</ul>
-				<div class="phone">
-					<p class="text">4008-821-628</p>
-					<p>只做您想要的！</p>
-				</div>
-				<div class="sun"><img src="img/sun.png"></div>				
-			</div>
-			<div id="login_area">
-				<ul class="header_unlogin clearfix">
-				    <li class="header_signin">
-				        <a href="javascript:void(0)" id="signin_btn">登录</a>
-				    </li>
-				    <li class="header_signup">
-				        <a href="javascript:void(0)" id="signup_btn">注册</a>
-				    </li>
-				</ul>
-	        </div>
-			
-		</div>
+		<%include header.ejs%>
 		<div></div>
 		<div class="business-content">
 			<div class="left-content">
 				<ul>
-					<li><a href="">公司简介</a></li>
-					<li><a href="">联系我们</a></li>
-					<li><a href="">伙伴加入</a></li>
-					<li><a href="">管理团队</a></li>
-					<li><a href="">品牌合作</a></li>
+					<li class="business selected"  data-tag="companyDesc"><a href="javascript:void(0)">公司简介</a></li>
+					<li class="business " data-tag="contactUs"><a href="javascript:void(0)">联系我们</a></li>
+					<li class="business " data-tag="joinUs"><a href="javascript:void(0)">伙伴加入</a></li>
+					<li class="business " data-tag="groupManage"><a href="javascript:void(0)">管理团队</a></li>
+					<li class="business " data-tag="cooperation"><a href="javascript:void(0)">品牌合作</a></li>
 				</ul>
 			</div>
 			<div class="right-content">
@@ -91,8 +29,13 @@
 				<p>企业优势：公司拥有国际国内领先的技术、完善的项目管理体系、质量管理体系和优秀的软硬件开发队伍（YCON TEAM；ISUNFIRE TEAM），以及专业的销售和服务团队，始终坚持“以客户为中心”的态度、以“互惠互利”为原则，以实际行动在深圳互联网界内赢得信任和美誉。</p>
                 <p>多年来,我们全心全意致力于品牌网站设计、系统软件开发、APP定制,在深圳互联网行业中有一定的知名度。我们拥有独立的高端服务器，提供从网站设计、网站推广、网络广告、软件定制及APP建设等互联网相关服务。网站设计案例涉及机械、医药、卫生、建筑、 IT 、纺织、娱乐、物流、咨询、房产、汽车等，从而积累了丰富的网络服务经验。</p>
                 <p>歪创随时欢迎您的咨询与合作，只做您想要的！愿大家能携手共进,创造出一个个辉煌。</p>
+
 			</div>
 		</div>
+	<%include footer.ejs%>
+		<script src="js/header/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/businessInfo/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/footer/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

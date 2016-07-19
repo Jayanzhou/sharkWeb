@@ -370,11 +370,22 @@ a {
   font-size: 14px;
   padding-top: 12px;
 }
+.footer .left p:first-child {
+  position: relative;
+}
 .footer .left a {
   font-size: 14px;
   display: inline-block;
   padding-right: 20px;
   color: #fff;
+}
+.footer .left .contact-us {
+  position: absolute;
+  background-color: #fff;
+  left: -60px;
+  top: -60px;
+  padding: 15px 15px;
+  color: #000;
 }
 .footer .center {
   float: left;

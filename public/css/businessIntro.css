@@ -4,6 +4,7 @@
   flex-direction: row;
   width: 90%;
   background-color: #eee;
+  margin-top: 20px;
 }
 .left-content {
   flex: 1;
@@ -22,6 +23,20 @@
   display: -webkit-flex;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
+}
+.left-content ul li.selected a {
+  color: #cc0000;
+}
+.left-content ul li.selected:before {
+  content: '';
+  display: block;
+  width: 2px;
+  background-color: #cc0000;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 60px;
 }
 .left-content ul li a {
   color: #787d82;
@@ -30,11 +45,14 @@
 .left-content ul li a:hover {
   color: #000;
 }
-.left-content ul li.selected {
-  color: #cc0000;
-}
 .right-content {
   flex: 4;
   -webkit-flex: 4;
   background-color: #fff;
+  padding: 30px 100px;
+}
+.right-content p {
+  text-indent: 24px;
+  line-height: 20px;
+  color: #646464;
 }

@@ -4,6 +4,7 @@
   flex-direction: row;
   width: 90%;
   background-color: #eee;
+  margin-top: 20px;
 }
 .left-content{
   flex: 1;
@@ -20,15 +21,28 @@
       display: -webkit-flex;
       justify-content: flex-start;
       align-items: center;
+      position: relative;
+      &.selected{
+        a{
+          color: #cc0000;
+        }
+      }
+      &.selected:before{
+        content: '';
+        display: block;
+        width: 2px;
+        background-color: #cc0000;
+        position: absolute;
+        top: 0;
+        left: -20px;
+        height: 60px;
+      }
       a{
         color: #787d82;
         font-size: 14px;
       }
       a:hover{
         color: #000;
-      }
-      &.selected{
-        color: #cc0000;
       }
     }
   }
@@ -37,4 +51,12 @@
   flex: 4;
   -webkit-flex: 4;
   background-color: #fff;
+  padding: 30px 100px;
+}
+.right-content{
+  p{
+    text-indent: 24px;
+    line-height: 20px;
+    color: #646464;
+  }
 }

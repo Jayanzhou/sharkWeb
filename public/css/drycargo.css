@@ -1,0 +1,32 @@
+.right-content .main_bottom {
+  width: auto!important;
+  padding-top: 36px!important;
+}
+.right-content .main_bottom .title p span {
+  padding-right: 20px;
+  width: 130px;
+}
+.right-content .main_bottom .title:before {
+  width: auto!important;
+}
+.right-content .main_bottom .title:after {
+  width: auto!important;
+}
+.right-content .main_bottom .clearfix2 {
+  zoom: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.right-content .main_bottom .clearfix2 .txt p {
+  color: #fff;
+}
+.right-content .cooperation .con ul li {
+  width: auto;
+  height: auto;
+}
+.right-content .cooperation .con ul li img {
+  width: 145px;
+  height: 207px;
+}
