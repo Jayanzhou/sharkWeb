@@ -28,12 +28,10 @@ a {
 }
 .clearfix {
   zoom: 1;
-}
-.clearfix:after {
-  height: 0;
-  clear: both;
-  display: block;
-  content: '';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #header {
   height: 87px;
@@ -418,8 +416,6 @@ a {
 .con ul li {
   width: 245px;
   height: 407px;
-  float: left;
-  margin-right: 15px;
   margin-bottom: 15px;
   position: relative;
   cursor: pointer;

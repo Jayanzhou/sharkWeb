@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .right-content .main_bottom .clearfix2 .txt p {
   color: #fff;
