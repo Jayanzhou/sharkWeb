@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3fa9db-21b3-4d85-8161-13b443be6c07" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/cooperation.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/groupManage.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/joinUs.ejs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/service/serviceInfo/appdesign.ejs" afterPath="$PROJECT_DIR$/routes/service/serviceInfo/appdesign.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/businessIntro.css" afterPath="$PROJECT_DIR$/public/css/businessIntro.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/businessIntro.ejs" afterPath="$PROJECT_DIR$/views/businessIntro.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/businessIntro.less" afterPath="$PROJECT_DIR$/public/less/businessIntro.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/businessInfo/busInfo/contactUs.ejs" afterPath="$PROJECT_DIR$/routes/businessInfo/busInfo/contactUs.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/businessInfo/busInfo/cooperation.ejs" afterPath="$PROJECT_DIR$/routes/businessInfo/busInfo/cooperation.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/drycargo.ejs" afterPath="$PROJECT_DIR$/views/drycargo.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/footer.ejs" afterPath="$PROJECT_DIR$/views/footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/information/inform/front.ejs" afterPath="$PROJECT_DIR$/routes/information/inform/front.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/businessInfo/busInfo/groupManage.ejs" afterPath="$PROJECT_DIR$/routes/businessInfo/busInfo/groupManage.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/information.ejs" afterPath="$PROJECT_DIR$/views/information.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/businessInfo/busInfo/joinUs.ejs" afterPath="$PROJECT_DIR$/routes/businessInfo/busInfo/joinUs.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/information/inform/notice.ejs" afterPath="$PROJECT_DIR$/routes/information/inform/notice.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/service/serviceInfo/platform.ejs" afterPath="$PROJECT_DIR$/routes/service/serviceInfo/platform.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/service.ejs" afterPath="$PROJECT_DIR$/views/service.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/service/serviceInfo/software.ejs" afterPath="$PROJECT_DIR$/routes/service/serviceInfo/software.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/service/serviceInfo/webmarket.ejs" afterPath="$PROJECT_DIR$/routes/service/serviceInfo/webmarket.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/index.css" afterPath="$PROJECT_DIR$/public/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/index.less" afterPath="$PROJECT_DIR$/public/less/index.less" />
     </list>
     <ignored path="sharkWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,17 +31,30 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.692307" vertical-offset="108" max-vertical-offset="2862">
-              <caret line="20" column="21" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="21" />
+            <state vertical-scroll-proportion="-13.576923" vertical-offset="241" max-vertical-offset="936">
+              <caret line="183" column="39" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="39" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/less/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.81391305" vertical-offset="0" max-vertical-offset="648">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notice.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notice.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/information/inform/notice.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="600">
+            <state vertical-scroll-proportion="-2.7692308" vertical-offset="0" max-vertical-offset="180">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
@@ -140,18 +135,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/less/common.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.098039" vertical-offset="124" max-vertical-offset="10422">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <marker date="1469089348398" expanded="true" signature="302:418" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="businessIntro.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/businessIntro.ejs">
           <provider selected="true" editor-type-id="text-editor">
@@ -174,7 +157,6 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/css/conmm.css" />
-        <option value="$PROJECT_DIR$/public/less/index.less" />
         <option value="$PROJECT_DIR$/public/less/conmm.less" />
         <option value="$PROJECT_DIR$/views/busInfo/companyDesc.ejs.html" />
         <option value="$PROJECT_DIR$/views/busInfo/contactUs.ejs" />
@@ -205,7 +187,6 @@
         <option value="$PROJECT_DIR$/routes/drycargo/drycargoInfo/cooperation.ejs" />
         <option value="$PROJECT_DIR$/public/less/drycargo.less" />
         <option value="$PROJECT_DIR$/public/less/common.less" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/drycargo.ejs" />
         <option value="$PROJECT_DIR$/views/footer.ejs" />
         <option value="$PROJECT_DIR$/routes/businessInfo/busInfo/contactUs.ejs" />
@@ -222,6 +203,8 @@
         <option value="$PROJECT_DIR$/views/information.ejs" />
         <option value="$PROJECT_DIR$/routes/information/inform/front.ejs" />
         <option value="$PROJECT_DIR$/routes/information/inform/notice.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/less/index.less" />
       </list>
     </option>
   </component>
@@ -723,13 +706,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/less/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="180">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/busInfo/joinUs.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
@@ -936,23 +912,7 @@
         <state vertical-scroll-proportion="-7.098039" vertical-offset="124" max-vertical-offset="10422">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1469089348398" expanded="true" signature="302:418" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.692307" vertical-offset="108" max-vertical-offset="1458">
-          <caret line="20" column="21" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1469089348398" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1087,8 +1047,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/information/inform/notice.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="600">
+        <state vertical-scroll-proportion="-2.7692308" vertical-offset="0" max-vertical-offset="180">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.576923" vertical-offset="241" max-vertical-offset="936">
+          <caret line="183" column="39" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81391305" vertical-offset="0" max-vertical-offset="648">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
         </state>
       </provider>
