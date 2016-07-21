@@ -50,6 +50,9 @@
   -webkit-flex: 4;
   background-color: #fff;
   padding: 30px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .right-content p {
   text-indent: 24px;
