@@ -116,7 +116,7 @@ a {
 }
 /*焦点图 */
 .flexslider {
-  height: 800px;
+  height: 620px;
   position: relative;
 }
 .slides {
@@ -124,7 +124,7 @@ a {
   z-index: 1;
 }
 .slides li {
-  height: 800px;
+  height: 620px;
 }
 .slides li a {
   display: block;

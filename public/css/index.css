@@ -14,7 +14,7 @@ h6 {
   flex-direction: column;
   position: fixed;
   left: 20px;
-  top: 200px;
+  top: 100px;
   z-index: 10;
   background-color: #fff;
   justify-content: center;
