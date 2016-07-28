@@ -35,6 +35,16 @@
   width: 145px;
   height: 207px;
 }
-.con_drycargo ul li {
-  margin: 5px 55px;
+.con_drycargo {
+  margin: 5px 55px!important;
+}
+.con_drycargo ul.clearfix2 {
+  margin: 5px 10%!important;
+}
+ul.con_case {
+  text-align: center!important;
+}
+ul.con_case li {
+  float: none!important;
+  display: inline-block !important;
 }

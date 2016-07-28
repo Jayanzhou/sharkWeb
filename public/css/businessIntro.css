@@ -1,28 +1,31 @@
 .business-content {
-  display: flex;
+  /*display: flex;
   display: -webkit-flex;
-  flex-direction: row;
+  flex-direction: row;*/
   width: 90%;
   background-color: #eee;
   margin-top: 20px;
 }
 .left-content {
-  flex: 1;
-  -webkit-flex: 1;
+  /*flex: 1;
+  -webkit-flex: 1;*/
   background-color: #fff;
   margin-left: 30px;
   margin-right: 10px;
+  width: 15%;
+  float: left;
 }
 .left-content ul {
   padding: 0 20px;
 }
 .left-content ul li {
   height: 60px;
+  line-height: 60px;
   border-bottom: 1px solid #edf1f2;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: flex-start;
-  align-items: center;
+  /* display: flex;
+      display: -webkit-flex;
+      justify-content: flex-start;
+      align-items: center;*/
   position: relative;
 }
 .left-content ul li.selected a {
@@ -46,13 +49,17 @@
   color: #000;
 }
 .right-content {
-  flex: 4;
-  -webkit-flex: 4;
+  /*flex: 4;
+  -webkit-flex: 4;*/
   background-color: #fff;
-  padding: 30px 100px;
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
+  width: 80%;
+  float: left;
+}
+.right-content .info {
+  padding: 30px;
 }
 .right-content p {
   text-indent: 24px;
