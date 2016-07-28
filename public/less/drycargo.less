@@ -18,15 +18,20 @@
     }
     .clearfix2 {
       zoom: 1;
-      display: flex;
+      /*display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-around;*/
       .txt{
         p{
           color: #fff;
         }
       }
+    }
+    .clearfix2:after{
+      display: block;
+      content: '';
+      clear: both;
     }
   }
   .cooperation{
@@ -41,6 +46,14 @@
           }
         }
       }
+    }
+  }
+}
+
+.con_drycargo{
+  ul{
+    li{
+      margin: 5px 55px;
     }
   }
 }

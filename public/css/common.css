@@ -28,14 +28,18 @@ a {
 }
 .clearfix {
   zoom: 1;
-  display: flex;
 }
 .clearfix2 {
   zoom: 1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  /*display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;*/
+}
+.clearfix2:after {
+  display: block;
+  content: '';
+  clear: both;
 }
 #header {
   height: 87px;
@@ -287,7 +291,7 @@ a {
 .main_bottom {
   width: 1100px;
   margin: 0 auto;
-  padding-top: 76px;
+  padding-top: 56px;
 }
 .main_bottom .title {
   font-size: 0;
@@ -329,6 +333,12 @@ a {
 }
 .main_bottom .title p:before {
   background: url("../img/left_ico.jpg") no-repeat;
+}
+.main_bottom .con ul {
+  text-align: center;
+}
+.main_bottom .con ul li {
+  float: left;
 }
 .main_bottom .subtitle {
   color: #8a8a8a;
@@ -420,10 +430,9 @@ a {
 .con ul li {
   width: 245px;
   height: 407px;
-  margin-bottom: 15px;
   position: relative;
   cursor: pointer;
-  border: 5px solid #eeeeee;
+  margin: 0px 15px;
   border-radius: 3px;
   overflow: hidden;
 }

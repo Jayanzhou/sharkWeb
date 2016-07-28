@@ -15,14 +15,19 @@ a {
 }
 .clearfix{
     zoom: 1;
-    display: flex;
+    //display: flex;
 }
 .clearfix2 {
       zoom: 1;
-      display: flex;
+      /*display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-around;*/
+}
+.clearfix2:after{
+    display: block;
+    content: '';
+    clear: both;
 }
 
 #header {
@@ -287,7 +292,7 @@ a {
 .main_bottom {
     width: 1100px;
     margin: 0 auto;
-    padding-top: 76px;
+    padding-top: 56px;
     .title {
         font-size: 0;
         text-align: center;
@@ -328,6 +333,16 @@ a {
                 background: url("../img/left_ico.jpg") no-repeat;
             }
         }
+    }
+    .con{
+        ul{
+
+            text-align: center;
+            li{
+                float: left;
+            }
+        }
+
     }
     .subtitle {
         color: #8a8a8a;
@@ -426,11 +441,12 @@ a {
     height: 407px;
     //float: left;
     //margin-right: 15px;
-    margin-bottom: 15px;
+    //margin-bottom: 15px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border: 5px solid #eeeeee;
+    //border: 5px solid #eeeeee;
+    margin: 0px 15px;
     border-radius: 3px;
     overflow: hidden;
     img{

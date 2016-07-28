@@ -14,13 +14,18 @@
 }
 .right-content .main_bottom .clearfix2 {
   zoom: 1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  /*display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;*/
 }
 .right-content .main_bottom .clearfix2 .txt p {
   color: #fff;
+}
+.right-content .main_bottom .clearfix2:after {
+  display: block;
+  content: '';
+  clear: both;
 }
 .right-content .cooperation .con ul li {
   width: auto;
@@ -29,4 +34,7 @@
 .right-content .cooperation .con ul li img {
   width: 145px;
   height: 207px;
+}
+.con_drycargo ul li {
+  margin: 5px 55px;
 }
