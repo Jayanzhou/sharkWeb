@@ -70,3 +70,25 @@
 .right-content h2 {
   text-align: center;
 }
+.right-content .platform {
+  margin: 30px 30px;
+}
+.right-content .platform .zt_one .zt_title {
+  font-family: "Arial";
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.right-content .platform .zt_one .zt_china {
+  font-size: 21px;
+  font-weight: 700px;
+}
+.right-content .platform .zt_one .zt_nei {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.right-content .platform .zt_one .zt_nei p {
+  text-indent: 0px;
+}
