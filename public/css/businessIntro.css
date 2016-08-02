@@ -105,13 +105,14 @@
   border-bottom: 5px #f2f2f2 solid;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 .right-content .platform .n_p_30 .n_m_b_26 {
   margin-bottom: 26px;
   text-align: left;
 }
 .right-content .platform .n_p_30 .why_ul {
-  width: 400px;
+  width: 100%;
 }
 .right-content .platform .n_p_30 .why_ul.w_f_c2 {
   background: url(../img/w_pic2.jpg) right no-repeat;
@@ -125,12 +126,12 @@
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
-  text-indent: 40px;
+  width: 350px;
 }
 .right-content .platform .n_p_30 .women_t {
   position: absolute;
   top: 10px;
-  left: 230px;
+  left: 210px;
 }
 .right-content .platform .n_p_30 .women_l {
   width: 289px;
@@ -142,7 +143,7 @@
   width: 826px;
   position: absolute;
   top: 220px;
-  right: 0px;
+  left: 20px;
   height: 850px;
 }
 .right-content .platform .n_p_30 .women_r .wo_dl {
