@@ -58,6 +58,12 @@
   width: 80%;
   float: left;
 }
+.right-content .content-body {
+  padding: 40px 50px;
+}
+.right-content .content-body p {
+  padding: 10px 0px;
+}
 .right-content .info {
   padding: 30px;
 }
@@ -169,4 +175,10 @@
   line-height: 28px;
   color: #666;
   padding-left: 30px;
+}
+.flexslider {
+  height: 420px!important;
+}
+.flexslider .slides li {
+  height: 420px!important;
 }
