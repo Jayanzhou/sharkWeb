@@ -242,6 +242,64 @@
   border: 1px solid transparent;
   border-radius: 4px;
 }
+.right-content .row {
+  width: 80%;
+  margin: 0 auto;
+}
+.right-content .row .solu_con {
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+.right-content .row .solu_con h1 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.right-content .row .solu_con p {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  text-indent: 0px;
+}
+.right-content .row .solu_con .so_dl {
+  padding: 20px 0px;
+}
+.right-content .row .solu_con .row2 {
+  margin-right: -15px;
+  margin-left: -15px;
+  border-top: 1px dashed #000;
+}
+.right-content .row .solu_con .row2 .col-lg-1,
+.right-content .row .solu_con .row2 .col-lg-2,
+.right-content .row .solu_con .row2 .col-lg-3,
+.right-content .row .solu_con .row2 .col-lg-4,
+.right-content .row .solu_con .row2 .col-lg-5,
+.right-content .row .solu_con .row2 .col-lg-6,
+.right-content .row .solu_con .row2 .col-lg-7,
+.right-content .row .solu_con .row2 .col-lg-8,
+.right-content .row .solu_con .row2 .col-lg-9,
+.right-content .row .solu_con .row2 .col-lg-10,
+.right-content .row .solu_con .row2 .col-lg-11,
+.right-content .row .solu_con .row2 .col-lg-12 {
+  float: left;
+}
+.right-content .row .solu_con .row2 .word-desc {
+  width: 65%;
+  padding-right: 3px;
+}
+.right-content .row .solu_con .row2:last-of-type {
+  border-bottom: 1px dashed #000;
+}
+.right-content .row .solu_con .row2:after {
+  display: block;
+  content: '';
+  clear: both;
+}
 .flexslider {
   height: 420px!important;
 }
