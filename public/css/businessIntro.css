@@ -131,7 +131,8 @@
 .right-content .platform .n_p_30 .women_t {
   position: absolute;
   top: 10px;
-  left: 210px;
+  left: 50%;
+  margin-left: -250px;
 }
 .right-content .platform .n_p_30 .women_l {
   width: 289px;
@@ -143,8 +144,9 @@
   width: 826px;
   position: absolute;
   top: 220px;
-  left: 20px;
+  left: 50%;
   height: 850px;
+  margin-left: -413px;
 }
 .right-content .platform .n_p_30 .women_r .wo_dl {
   border-bottom: 1px dashed #ccc;
@@ -176,6 +178,69 @@
   line-height: 28px;
   color: #666;
   padding-left: 30px;
+}
+.right-content .guyuleft {
+  width: 80%;
+  margin: 20px auto;
+}
+.right-content .guyuleft h3 {
+  font-size: 18px;
+}
+.right-content .guyuleft .text-primary {
+  color: #428bca;
+}
+.right-content .guyuleft .page-header {
+  height: 40px;
+  line-height: 40px;
+}
+.right-content .guyuleft p {
+  margin-bottom: 10px;
+}
+.right-content .guyuleft .font32 {
+  font-size: 22px !important;
+  line-height: 1.8;
+}
+.right-content .guyuleft .table-bordered {
+  border: 1px solid #ddd;
+}
+.right-content .guyuleft .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  font-size: 14px;
+}
+.right-content .guyuleft table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+}
+.right-content .guyuleft table tr td {
+  font-size: 14px;
+  color: #5D5D5D;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+}
+.right-content .guyuleft .marginTop15 {
+  margin-top: 15px !important;
+}
+.right-content .guyuleft .marginTop15 .marginBot15 {
+  margin-bottom: 15px!important;
+}
+.right-content .guyuleft .alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.right-content .guyuleft .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 .flexslider {
   height: 420px!important;
