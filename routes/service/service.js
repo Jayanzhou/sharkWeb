@@ -27,3 +27,11 @@ exports.index = function(req, res){
     }
 
 }
+
+exports.indexpage = function(req, res){
+    var tag = req.query.tag;
+    var data = {
+        tag: tag
+    };
+    res.render('service', data);
+}

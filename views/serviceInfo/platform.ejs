@@ -1,58 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="keywords" content="深圳专业建站 网站建设 App开发 软件开发 深圳软件开发 全网营销"/>
-    <title>歪创科技-最具创造性稳定性的开发团队</title>
-    <link rel="stylesheet" type="text/css" href="css/common.css" />
-    <link rel="stylesheet" type="text/css" href="css/businessIntro.css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/service/index.js"></script>
-</head>
-
-<body>
-<%include header.ejs%>
-
-<div class="flexslider">
-    <ul class="slides">
-
-        <li style="background:url(img/sonpic20160801.png) center 0 no-repeat;">
-            <a href="javascript:void(0);"></a>
-        </li>
-
-    </ul>
-</div>
-
-<div class="business-content clearfix2">
-    <div class="left-content">
-        <ul>
-            <%if(tag){%>
-            <li class="business <%if(tag == 'platform'){%> selected<%}%>"  data-tag="platform"><a href="javascript:void(0)">平台建设</a></li>
-            <%}else{%>
-            <li class="business selected"  data-tag="platform"><a href="javascript:void(0)">平台建设</a></li>
-            <%}%>
-            <li class="business  <%if(tag == 'software'){%> selected<%}%>" data-tag="software"><a href="javascript:void(0)">软件开发</a></li>
-            <li class="business  <%if(tag == 'appdesign'){%> selected<%}%>" data-tag="appdesign"><a href="javascript:void(0)">App设计</a></li>
-            <li class="business  <%if(tag == 'webmarket'){%> selected<%}%>" data-tag="webmarket"><a href="javascript:void(0)">全网营销</a></li>
-        </ul>
-    </div>
-    <div class="right-content">
-        <%if(tag == 'platform'){%>
-            <%include serviceInfo/platform.ejs%>
-        <%}else if(tag == 'software'){%>
-            <%include serviceInfo/software.ejs%>
-        <%}else if(tag == 'appdesign'){%>
-            <%include serviceInfo/appdesign.ejs%>
-        <%}else if(tag == 'webmarket'){%>
-            <%include serviceInfo/webmarket.ejs%>
-        <%}else{%>
-        <div class="platform">
+<div class="platform">
             <div class="zt_one">
                 <h2 class="zt_title">Brand Website</h2>
                 <strong class="zt_china">品牌网站建设</strong>
                 <p class="zt_nei">
-                    爱与众不同，爱与自己不同！歪创拥有一支业界一流的网站设计、研发、技术支持团队，将前沿技术和多年实战经验与用户的具体需求完美结合，不断超越自我，精益求精，用户的满意是给我们的最大回报。</p>
+                爱与众不同，爱与自己不同！歪创拥有一支业界一流的网站设计、研发、技术支持团队，将前沿技术和多年实战经验与用户的具体需求完美结合，不断超越自我，精益求精，用户的满意是给我们的最大回报。</p>
             </div>
             <div class="n_p_30">
                 <div style="float: left;">
@@ -63,9 +14,9 @@
                         <li>（2）设计个性化，更能吸引眼球</li>
                         <li>（3）注重用户体验，交互等设置完善 </li>
                         <li>（4）有利于全方位展现企业</li>
-                        <li>（5）更有利于网站SEO优化</li>
-                        <li>（6）功能更强大，扩展性更强</li>
-
+                         <li>（5）更有利于网站SEO优化</li>
+                         <li>（6）功能更强大，扩展性更强</li>
+                       
                     </ul>
                 </div>
                 <!-- <div style="float: right;">
@@ -108,7 +59,7 @@
                                 专业的售前团队、设计团队、网站优化团队、技术团队、售后团队与您沟通，确保网站建设的进度和质量；</p>
                         </dd>
                     </dl>
-
+                    
 
                     <dl class="wo_dl">
                         <dt>
@@ -147,16 +98,4 @@
 
 
                 </div>
-            </div>
         </div>
-        <%}%>
-
-    </div>
-
-</div>
-<%include footer.ejs%>
-</body>
-<script src="js/header/index.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/footer/index.js" type="text/javascript" charset="utf-8"></script>
-
-</html>

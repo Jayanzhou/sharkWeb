@@ -22,11 +22,14 @@ router.get('/business', function(req, res){
 /*拉取公司信息*/
 router.get('/business_intro?', businessInfo.companyDesc);
 
+router.get('/servicepage', service.indexpage);
 /*服务页*/
 router.get('/service', service.index);
 /*资讯页*/
 router.get('/information', information.index);
+router.get('/informationpage', information.indexpage);
 /*干货页*/
 router.get('/drycargo', drycargo.index);
+router.get('/drycargopage', drycargo.indexpage);
 
 module.exports = router;
