@@ -86,6 +86,7 @@ a {
   height: 50px;
   width: auto;
   display: block;
+  border: none;
 }
 .header .phone {
   position: absolute;

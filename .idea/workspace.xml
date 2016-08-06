@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3fa9db-21b3-4d85-8161-13b443be6c07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/drycargo.ejs" afterPath="$PROJECT_DIR$/views/drycargo.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/drycargo/drycargo.js" afterPath="$PROJECT_DIR$/routes/drycargo/drycargo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/information.ejs" afterPath="$PROJECT_DIR$/views/information.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/information/information.js" afterPath="$PROJECT_DIR$/routes/information/information.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/service.ejs" afterPath="$PROJECT_DIR$/views/service.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/service/service.js" afterPath="$PROJECT_DIR$/routes/service/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sharkWeb.iml" afterPath="$PROJECT_DIR$/.idea/sharkWeb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/common.less" afterPath="$PROJECT_DIR$/public/less/common.less" />
     </list>
     <ignored path="sharkWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +25,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="drycargo.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="drycargo.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/drycargo.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22315437" vertical-offset="437" max-vertical-offset="4294">
+            <state vertical-scroll-proportion="-20.357143" vertical-offset="0" max-vertical-offset="4294">
               <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <marker date="1470478932379" expanded="true" signature="831:980" placeholder="{...}" />
+                <marker date="1470478932379" expanded="true" signature="984:1105" placeholder="{...}" />
+                <marker date="1470478932379" expanded="true" signature="1335:1392" placeholder="{...}" />
+                <marker date="1470478932379" expanded="true" signature="1421:1485" placeholder="{...}" />
+                <marker date="1470478932379" expanded="true" signature="1489:7904" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/less/common.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5769231" vertical-offset="996" max-vertical-offset="11533">
+              <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -111,17 +116,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.785714" vertical-offset="380" max-vertical-offset="1596">
               <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="case.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/drycargoInfo/case.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3230">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1470478921117" expanded="true" signature="775:924" placeholder="{...}" />
+                <marker date="1470478921117" expanded="true" signature="928:1048" placeholder="{...}" />
+                <marker date="1470478921117" expanded="true" signature="1267:1319" placeholder="{...}" />
+                <marker date="1470478921117" expanded="true" signature="1343:1396" placeholder="{...}" />
+                <marker date="1470478921117" expanded="true" signature="1400:3596" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +157,7 @@
         <option value="$PROJECT_DIR$/views/service.ejs" />
         <option value="$PROJECT_DIR$/views/information.ejs" />
         <option value="$PROJECT_DIR$/views/drycargo.ejs" />
+        <option value="$PROJECT_DIR$/public/less/common.less" />
       </list>
     </option>
   </component>
@@ -942,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/less/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="448" column="21" selection-start-line="448" selection-start-column="4" selection-end-line="448" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/less/businessIntro.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1060,14 +1055,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.785714" vertical-offset="380" max-vertical-offset="1596">
           <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding />
+          <folding>
+            <marker date="1470478921117" expanded="true" signature="775:924" placeholder="{...}" />
+            <marker date="1470478921117" expanded="true" signature="928:1048" placeholder="{...}" />
+            <marker date="1470478921117" expanded="true" signature="1267:1319" placeholder="{...}" />
+            <marker date="1470478921117" expanded="true" signature="1343:1396" placeholder="{...}" />
+            <marker date="1470478921117" expanded="true" signature="1400:3596" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/drycargo.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22315437" vertical-offset="437" max-vertical-offset="4294">
+        <state vertical-scroll-proportion="-20.357143" vertical-offset="0" max-vertical-offset="4294">
           <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <marker date="1470478932379" expanded="true" signature="831:980" placeholder="{...}" />
+            <marker date="1470478932379" expanded="true" signature="984:1105" placeholder="{...}" />
+            <marker date="1470478932379" expanded="true" signature="1335:1392" placeholder="{...}" />
+            <marker date="1470478932379" expanded="true" signature="1421:1485" placeholder="{...}" />
+            <marker date="1470478932379" expanded="true" signature="1489:7904" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/less/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769231" vertical-offset="996" max-vertical-offset="11533">
+          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
           <folding />
         </state>
       </provider>
