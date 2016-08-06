@@ -23,7 +23,9 @@ exports.index = function(req, res){
 
         });
     }else{
-        res.render('service');
+        res.render('service', {
+            tag: '0'
+        });
     }
 
 }

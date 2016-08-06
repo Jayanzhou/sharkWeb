@@ -23,7 +23,9 @@ exports.index = function(req, res) {
 
         });
     } else {
-        res.render('information');
+        res.render('information', {
+            tag: '0'
+        });
     }
 
 }
