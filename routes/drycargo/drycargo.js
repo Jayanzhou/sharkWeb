@@ -23,7 +23,9 @@ exports.index = function(req, res) {
 
         });
     } else {
-        res.render('drycargo');
+        res.render('drycargo', {
+            tag: '0'
+        });
     }
 }
 
